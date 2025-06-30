@@ -1,0 +1,12 @@
+# Don't upload your secret API key
+.env
+
+# Python cache stuff
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# VS Code settings (optional)
+.vscode/
