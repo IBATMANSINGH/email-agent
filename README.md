@@ -118,10 +118,6 @@ data = {
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -140,4 +136,24 @@ If you encounter any issues or have questions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ & Vibes by [IBATMANSINGH](https://github.com/IBATMANSINGH)**
+### 🤖 AI-Assisted Development Process
+
+This project was built using a "prompt-first" approach, where I leveraged an LLM as a coding co-pilot to translate a concept into a functional application.
+
+*   **The Core Prompt:** I began by architecting the project with a high-level prompt to generate the core logic:
+    > *"Write a Python script that can read unread emails from a Gmail account using the Gmail API. For each unread email, use Google's Gemini Pro LLM to analyze its content and classify it into a category like 'Interested', 'Not Interested', or 'More Information'."*
+
+*   **Iteration and Refinement:** The AI generated the initial API connection code. I then used follow-up prompts to build out the full workflow:
+    *   "Based on the AI's classification, write a function to automatically draft a reply email."
+    *   "Implement logic to send the drafted reply using the Gmail API."
+    *   "Add a feature to automatically mark the processed email as 'read' to avoid re-processing."
+
+*   **My Role as the Developer:** My primary role was not just to code, but to act as the architect. This involved designing the prompts for email classification and response drafting, critically evaluating and debugging the AI-generated code, managing the complex authentication and API interactions with Google Cloud, and testing the end-to-end automation pipeline.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Made with ❤️ & Vibes by Ankit Singh
